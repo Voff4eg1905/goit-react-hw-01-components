@@ -1,3 +1,7 @@
+import user from '../data/user';
+import data from '../data/data'
+import Profile from './Social_media_profile/profile';
+import Statistics from './Stats/stats';
 export const App = () => {
   return (
     <div
@@ -7,10 +11,12 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
-      React homework template
+      <Profile {...user} />
+      <Statistics title="Upload stats" stats={data} />
+<Statistics stats={data} />
     </div>
   );
 };
