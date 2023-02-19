@@ -4,7 +4,7 @@ import StatCard from './stat_card';
 export default function Statistics ({title, stats}) {
     return (
         <section className="statistics">
-  {title !== false && <h2 className="title">{title}</h2>}
+  {title && <h2 className="title">{title}</h2>}
 
   <ul className="stat-list">
     
