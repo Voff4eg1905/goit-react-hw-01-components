@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
+import css from 'components/Stats/stat_card.module.css'
 
-export default function StatCard({label, percentage }) {
+
+export default function StatCard({ label, percentage }) {
   return (
-   <>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-      </>
+    <li className={css.item}>
+      <span className={css.label}>{label}</span>
+      <span className={css.percentage}>{percentage}</span>
+    </li>
   );
 }
 

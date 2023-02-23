@@ -15,7 +15,7 @@ export default function TransactionHistory({ items }) {
       <tbody>
         {items.map(({ id, ...info }) => (
           <tr key={id}>
-            <TableRow {...info} />
+            <TableRow key={id}{...info} />
           </tr>
         ))}
       </tbody>

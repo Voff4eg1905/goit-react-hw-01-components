@@ -1,0 +1,16 @@
+.statistics {
+    text-align: center;
+    margin-right: 50px;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: rgb(214, 206, 206);
+    padding: 20px 10px;
+    margin: 0;
+}
+.statList {
+display: flex;
+font-size: 12px;
+justify-content: space-between;
+}
