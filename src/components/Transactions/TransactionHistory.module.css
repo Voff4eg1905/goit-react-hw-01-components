@@ -1,0 +1,14 @@
+.transactionHistory {
+  border: 1px dashed grey;
+  padding: 10px 15px;
+}
+
+.tebleHeader {
+  background-color: lightblue;
+  font-size: 20 px;
+}
+
+.tableContent {
+    font-size: 15px;
+    text-align: center;
+}
